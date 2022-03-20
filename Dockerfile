@@ -1,5 +1,5 @@
 FROM Tomcat:8.5.51
 
-copy /var/lib/jenkins/workspace/ /usr/local/webapps/ROOT.war
+copy /var/jenkins_home/workspace/petclinic01/target/petclinic.war /usr/local/webapps/ROOT.war
 
 EXPOSE 8080
