@@ -1,4 +1,4 @@
-FROM Tomcat:8.5.51
+FROM tomcat:8.5.51
 
 copy /var/jenkins_home/workspace/petclinic01/target/petclinic.war /usr/local/webapps/ROOT.war
 
