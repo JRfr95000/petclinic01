@@ -1,5 +1,5 @@
 FROM tomcat:8.5.51
 
-copy ./petclinic.war /usr/local/webapps/ROOT.war
+COPY ./petclinic.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
